@@ -17,7 +17,9 @@ class MyApp extends StatelessWidget {
       ),
       darkTheme: ThemeData(
         appBarTheme: const AppBarTheme(color: Colors.black),
-        iconTheme: const IconThemeData(color: Colors.white),
+        iconTheme: const IconThemeData(color: Colors.black),
+        backgroundColor: Colors.black87,
+        buttonTheme: const ButtonThemeData(buttonColor: Colors.black),
       ),
       home: const LoginPage(),
     );

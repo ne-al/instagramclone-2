@@ -57,7 +57,7 @@ class _NavBarPageState extends State<NavBarPage> {
           BottomNavigationBarItem(
             icon: CircleAvatar(
               radius: 15,
-              backgroundImage: AssetImage('images/image.jpg'),
+              backgroundImage: AssetImage('images/image2.jpg'),
             ),
             label: 'Profile',
             tooltip: 'Profile',
